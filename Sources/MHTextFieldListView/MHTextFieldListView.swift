@@ -142,7 +142,7 @@ public class MHTextFieldListView<T: MHTextFieldListViewKindRequiresEnum>: UIView
 
 
 extension UIView{
-    fileprivate func addRoundSpecificedCorners(cornerRadius: CGFloat, byRoundingCorners: UIRectCorner, boderColor: UIColor = .clear, boderWidth: CGFloat = 1.5) {
+    public func addRoundSpecificedCorners(cornerRadius: CGFloat, byRoundingCorners: UIRectCorner, boderColor: UIColor = .clear, boderWidth: CGFloat = 1.5) {
         clipsToBounds = true
         if #available(iOS 11.0, *) {
             
