@@ -2,7 +2,7 @@ import Foundation
 import UIKit
 import RxSwift
 
-protocol MHTextFieldListViewProtocol: AnyObject{
+public protocol MHTextFieldListViewProtocol: AnyObject{
     associatedtype T: MHTextFieldListViewKindRequiresEnum
     
 //    var textBtns: [T.RawValue : UIButton] {get set}
